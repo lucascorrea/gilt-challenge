@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Finish.swift
 //  Gilt
 //
 //  Created by Lucas Correa on 13/08/2017.
@@ -8,4 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+enum Finish: String {
+    case Gloss = "G"
+    case Matte = "M"
+}

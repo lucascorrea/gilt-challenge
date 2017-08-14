@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Paint.swift
 //  Gilt
 //
 //  Created by Lucas Correa on 13/08/2017.
@@ -8,4 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+
+struct Paint {
+ 
+    // MARK: - Properties
+    let color: Int
+    let finish: Finish
+
+}

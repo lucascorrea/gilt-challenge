@@ -8,6 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		A085179C1F409EA3008694C8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A085179B1F409EA3008694C8 /* main.swift */; };
+		A08517C51F409F7D008694C8 /* GiltTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08517C41F409F7D008694C8 /* GiltTestCase.swift */; };
+		A08517DB1F40A474008694C8 /* invalid1 in Resources */ = {isa = PBXBuildFile; fileRef = A08517CD1F40A474008694C8 /* invalid1 */; };
+		A08517DD1F40A474008694C8 /* invalid2 in Resources */ = {isa = PBXBuildFile; fileRef = A08517CF1F40A474008694C8 /* invalid2 */; };
+		A08517DE1F40A474008694C8 /* invalid3 in Resources */ = {isa = PBXBuildFile; fileRef = A08517D01F40A474008694C8 /* invalid3 */; };
+		A08517DF1F40A474008694C8 /* invalid4 in Resources */ = {isa = PBXBuildFile; fileRef = A08517D11F40A474008694C8 /* invalid4 */; };
+		A08517E01F40A474008694C8 /* valid1 in Resources */ = {isa = PBXBuildFile; fileRef = A08517D21F40A474008694C8 /* valid1 */; };
+		A08517E11F40A474008694C8 /* valid2 in Resources */ = {isa = PBXBuildFile; fileRef = A08517D31F40A474008694C8 /* valid2 */; };
+		A08517E21F40A474008694C8 /* valid3 in Resources */ = {isa = PBXBuildFile; fileRef = A08517D41F40A474008694C8 /* valid3 */; };
+		A08517E51F40A474008694C8 /* valid4 in Resources */ = {isa = PBXBuildFile; fileRef = A08517D71F40A474008694C8 /* valid4 */; };
+		A08517E61F40A474008694C8 /* valid5 in Resources */ = {isa = PBXBuildFile; fileRef = A08517D81F40A474008694C8 /* valid5 */; };
+		A08517E71F40A474008694C8 /* valid6 in Resources */ = {isa = PBXBuildFile; fileRef = A08517D91F40A474008694C8 /* valid6 */; };
+		A08518151F40C5E6008694C8 /* valid7 in Resources */ = {isa = PBXBuildFile; fileRef = A08517DA1F40A474008694C8 /* valid7 */; };
+		A08518241F41F1F9008694C8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A085181B1F41F1F9008694C8 /* Constants.swift */; };
+		A08518251F41F1F9008694C8 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A085181C1F41F1F9008694C8 /* Errors.swift */; };
+		A08518261F41F1F9008694C8 /* InputFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A085181D1F41F1F9008694C8 /* InputFileReader.swift */; };
+		A08518271F41F1F9008694C8 /* ManagerPaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A085181E1F41F1F9008694C8 /* ManagerPaint.swift */; };
+		A08518281F41F1F9008694C8 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08518201F41F1F9008694C8 /* Customer.swift */; };
+		A08518291F41F1F9008694C8 /* Finish.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08518211F41F1F9008694C8 /* Finish.swift */; };
+		A085182A1F41F1F9008694C8 /* Paint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08518221F41F1F9008694C8 /* Paint.swift */; };
+		A085182B1F41F1F9008694C8 /* PaintShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08518231F41F1F9008694C8 /* PaintShop.swift */; };
+		A085182C1F41F21D008694C8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A085181B1F41F1F9008694C8 /* Constants.swift */; };
+		A085182D1F41F21D008694C8 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A085181C1F41F1F9008694C8 /* Errors.swift */; };
+		A085182E1F41F21D008694C8 /* InputFileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A085181D1F41F1F9008694C8 /* InputFileReader.swift */; };
+		A085182F1F41F21D008694C8 /* ManagerPaint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A085181E1F41F1F9008694C8 /* ManagerPaint.swift */; };
+		A08518301F41F21D008694C8 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08518201F41F1F9008694C8 /* Customer.swift */; };
+		A08518311F41F21D008694C8 /* Finish.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08518211F41F1F9008694C8 /* Finish.swift */; };
+		A08518321F41F21D008694C8 /* Paint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08518221F41F1F9008694C8 /* Paint.swift */; };
+		A08518331F41F21D008694C8 /* PaintShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08518231F41F1F9008694C8 /* PaintShop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +53,38 @@
 /* Begin PBXFileReference section */
 		A08517981F409EA3008694C8 /* Gilt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Gilt; sourceTree = BUILT_PRODUCTS_DIR; };
 		A085179B1F409EA3008694C8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A08517C21F409F7D008694C8 /* GiltTestCase.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiltTestCase.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08517C41F409F7D008694C8 /* GiltTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiltTestCase.swift; sourceTree = "<group>"; };
+		A08517CD1F40A474008694C8 /* invalid1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = invalid1; sourceTree = "<group>"; };
+		A08517CF1F40A474008694C8 /* invalid2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = invalid2; sourceTree = "<group>"; };
+		A08517D01F40A474008694C8 /* invalid3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = invalid3; sourceTree = "<group>"; };
+		A08517D11F40A474008694C8 /* invalid4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = invalid4; sourceTree = "<group>"; };
+		A08517D21F40A474008694C8 /* valid1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valid1; sourceTree = "<group>"; };
+		A08517D31F40A474008694C8 /* valid2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valid2; sourceTree = "<group>"; };
+		A08517D41F40A474008694C8 /* valid3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valid3; sourceTree = "<group>"; };
+		A08517D71F40A474008694C8 /* valid4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valid4; sourceTree = "<group>"; };
+		A08517D81F40A474008694C8 /* valid5 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valid5; sourceTree = "<group>"; };
+		A08517D91F40A474008694C8 /* valid6 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valid6; sourceTree = "<group>"; };
+		A08517DA1F40A474008694C8 /* valid7 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = valid7; sourceTree = "<group>"; };
+		A085181B1F41F1F9008694C8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A085181C1F41F1F9008694C8 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		A085181D1F41F1F9008694C8 /* InputFileReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputFileReader.swift; sourceTree = "<group>"; };
+		A085181E1F41F1F9008694C8 /* ManagerPaint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerPaint.swift; sourceTree = "<group>"; };
+		A08518201F41F1F9008694C8 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		A08518211F41F1F9008694C8 /* Finish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Finish.swift; sourceTree = "<group>"; };
+		A08518221F41F1F9008694C8 /* Paint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paint.swift; sourceTree = "<group>"; };
+		A08518231F41F1F9008694C8 /* PaintShop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintShop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A08517951F409EA3008694C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08517BF1F409F7D008694C8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A085179A1F409EA3008694C8 /* Gilt */,
+				A08517C31F409F7D008694C8 /* GiltTestCase */,
 				A08517991F409EA3008694C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				A08517981F409EA3008694C8 /* Gilt */,
+				A08517C21F409F7D008694C8 /* GiltTestCase.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,9 +115,68 @@
 		A085179A1F409EA3008694C8 /* Gilt */ = {
 			isa = PBXGroup;
 			children = (
-				A085179B1F409EA3008694C8 /* main.swift */,
+				A085181A1F41F1F9008694C8 /* Helpers */,
+				A085181F1F41F1F9008694C8 /* Models */,
+				A08517BA1F409F09008694C8 /* Main */,
 			);
 			path = Gilt;
+			sourceTree = "<group>";
+		};
+		A08517BA1F409F09008694C8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A085179B1F409EA3008694C8 /* main.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		A08517C31F409F7D008694C8 /* GiltTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				A08517CA1F409FA3008694C8 /* Resources */,
+				A08517C41F409F7D008694C8 /* GiltTestCase.swift */,
+			);
+			path = GiltTestCase;
+			sourceTree = "<group>";
+		};
+		A08517CA1F409FA3008694C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A08517CD1F40A474008694C8 /* invalid1 */,
+				A08517CF1F40A474008694C8 /* invalid2 */,
+				A08517D01F40A474008694C8 /* invalid3 */,
+				A08517D11F40A474008694C8 /* invalid4 */,
+				A08517D21F40A474008694C8 /* valid1 */,
+				A08517D31F40A474008694C8 /* valid2 */,
+				A08517D41F40A474008694C8 /* valid3 */,
+				A08517D71F40A474008694C8 /* valid4 */,
+				A08517D81F40A474008694C8 /* valid5 */,
+				A08517D91F40A474008694C8 /* valid6 */,
+				A08517DA1F40A474008694C8 /* valid7 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A085181A1F41F1F9008694C8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A085181B1F41F1F9008694C8 /* Constants.swift */,
+				A085181C1F41F1F9008694C8 /* Errors.swift */,
+				A085181D1F41F1F9008694C8 /* InputFileReader.swift */,
+				A085181E1F41F1F9008694C8 /* ManagerPaint.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A085181F1F41F1F9008694C8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A08518201F41F1F9008694C8 /* Customer.swift */,
+				A08518211F41F1F9008694C8 /* Finish.swift */,
+				A08518221F41F1F9008694C8 /* Paint.swift */,
+				A08518231F41F1F9008694C8 /* PaintShop.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +199,23 @@
 			productReference = A08517981F409EA3008694C8 /* Gilt */;
 			productType = "com.apple.product-type.tool";
 		};
+		A08517C11F409F7D008694C8 /* GiltTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08517C71F409F7D008694C8 /* Build configuration list for PBXNativeTarget "GiltTestCase" */;
+			buildPhases = (
+				A08517BE1F409F7D008694C8 /* Sources */,
+				A08517BF1F409F7D008694C8 /* Frameworks */,
+				A08517C01F409F7D008694C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GiltTestCase;
+			productName = GiltTestCase;
+			productReference = A08517C21F409F7D008694C8 /* GiltTestCase.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -97,6 +231,11 @@
 						DevelopmentTeam = 6CG326ELR9;
 						ProvisioningStyle = Automatic;
 					};
+					A08517C11F409F7D008694C8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6CG326ELR9;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = A08517931F409EA3008694C8 /* Build configuration list for PBXProject "Gilt" */;
@@ -105,6 +244,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A085178F1F409EA3008694C8;
 			productRefGroup = A08517991F409EA3008694C8 /* Products */;
@@ -112,9 +252,31 @@
 			projectRoot = "";
 			targets = (
 				A08517971F409EA3008694C8 /* Gilt */,
+				A08517C11F409F7D008694C8 /* GiltTestCase */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A08517C01F409F7D008694C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08518151F40C5E6008694C8 /* valid7 in Resources */,
+				A08517DE1F40A474008694C8 /* invalid3 in Resources */,
+				A08517E51F40A474008694C8 /* valid4 in Resources */,
+				A08517E71F40A474008694C8 /* valid6 in Resources */,
+				A08517E61F40A474008694C8 /* valid5 in Resources */,
+				A08517E11F40A474008694C8 /* valid2 in Resources */,
+				A08517DD1F40A474008694C8 /* invalid2 in Resources */,
+				A08517E01F40A474008694C8 /* valid1 in Resources */,
+				A08517DB1F40A474008694C8 /* invalid1 in Resources */,
+				A08517DF1F40A474008694C8 /* invalid4 in Resources */,
+				A08517E21F40A474008694C8 /* valid3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A08517941F409EA3008694C8 /* Sources */ = {
@@ -122,6 +284,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				A085179C1F409EA3008694C8 /* main.swift in Sources */,
+				A08518251F41F1F9008694C8 /* Errors.swift in Sources */,
+				A085182A1F41F1F9008694C8 /* Paint.swift in Sources */,
+				A085182B1F41F1F9008694C8 /* PaintShop.swift in Sources */,
+				A08518271F41F1F9008694C8 /* ManagerPaint.swift in Sources */,
+				A08518291F41F1F9008694C8 /* Finish.swift in Sources */,
+				A08518281F41F1F9008694C8 /* Customer.swift in Sources */,
+				A08518241F41F1F9008694C8 /* Constants.swift in Sources */,
+				A08518261F41F1F9008694C8 /* InputFileReader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08517BE1F409F7D008694C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A085182C1F41F21D008694C8 /* Constants.swift in Sources */,
+				A085182D1F41F21D008694C8 /* Errors.swift in Sources */,
+				A085182E1F41F21D008694C8 /* InputFileReader.swift in Sources */,
+				A085182F1F41F21D008694C8 /* ManagerPaint.swift in Sources */,
+				A08518301F41F21D008694C8 /* Customer.swift in Sources */,
+				A08518311F41F21D008694C8 /* Finish.swift in Sources */,
+				A08518321F41F21D008694C8 /* Paint.swift in Sources */,
+				A08518331F41F21D008694C8 /* PaintShop.swift in Sources */,
+				A08517C51F409F7D008694C8 /* GiltTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +422,34 @@
 			};
 			name = Release;
 		};
+		A08517C81F409F7D008694C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6CG326ELR9;
+				INFOPLIST_FILE = GiltTestCase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siriuscode.GiltTestCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A08517C91F409F7D008694C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6CG326ELR9;
+				INFOPLIST_FILE = GiltTestCase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.siriuscode.GiltTestCase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -253,6 +467,14 @@
 			buildConfigurations = (
 				A08517A01F409EA3008694C8 /* Debug */,
 				A08517A11F409EA3008694C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A08517C71F409F7D008694C8 /* Build configuration list for PBXNativeTarget "GiltTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08517C81F409F7D008694C8 /* Debug */,
+				A08517C91F409F7D008694C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

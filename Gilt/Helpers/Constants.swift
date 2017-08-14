@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Constants.swift
 //  Gilt
 //
 //  Created by Lucas Correa on 13/08/2017.
@@ -8,4 +8,6 @@
 
 import Foundation
 
-print("Hello, World!")
+struct Constants {
+    static let NoSolutionExists: String = "No solution exists!"
+}
