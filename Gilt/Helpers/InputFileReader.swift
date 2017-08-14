@@ -13,17 +13,17 @@ class InputFileReader {
     func readFileAt(_ fileName: String) throws -> String {
         
         guard let path = Bundle(for: type(of: self)).path(forResource: fileName, ofType: "") else {
-            throw InputFileReaderError.InputFileNotFound
+            throw InputFileReaderError.inputFileNotFound
         }
         
         guard let content = try? String(contentsOfFile: path) else {
-            throw InputFileReaderError.InvalidFileFormat
+            throw InputFileReaderError.invalidFileFormat
         }
         return content
     }
 }
 
 enum InputFileReaderError: Error {
-    case InputFileNotFound
-    case InvalidFileFormat
+    case inputFileNotFound
+    case invalidFileFormat
 }

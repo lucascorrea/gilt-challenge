@@ -42,27 +42,42 @@
                   moduleName = "GiltTestCase"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lucas/Documents/Projetos/Siriuscode/Gilt/Gilt/Helpers/ManagerPaint.swift"
-                  timestampString = "524417117.112518"
+                  timestampString = "524420973.365876"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "66"
                   endingLineNumber = "66"
-                  offsetFromSymbolStart = "469">
+                  offsetFromSymbolStart = "31">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "GiltTestCase.ManagerPaint.((complete in _0DE0A196A4D8F1F0F472F2E87E727E9E) (Swift.Dictionary&lt;Swift.Int, GiltTestCase.Finish&gt;) -&gt; Swift.String).(closure #2)"
+                  symbolName = "GiltTestCase.ManagerPaint.((complete in _0DE0A196A4D8F1F0F472F2E87E727E9E) (Swift.Dictionary&lt;Swift.Int, GiltTestCase.Finish&gt;) -&gt; Swift.String).(closure #1)"
                   moduleName = "GiltTestCase"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lucas/Documents/Projetos/Siriuscode/Gilt/Gilt/Helpers/ManagerPaint.swift"
-                  timestampString = "524417117.11566"
+                  timestampString = "524420973.368973"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "66"
                   endingLineNumber = "66"
-                  offsetFromSymbolStart = "19">
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GiltTestCase.ManagerPaint.((complete in _0DE0A196A4D8F1F0F472F2E87E727E9E) (Swift.Dictionary&lt;Swift.Int, GiltTestCase.Finish&gt;) -&gt; Swift.String).(closure #1).(implicit closure #1)"
+                  moduleName = "GiltTestCase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas/Documents/Projetos/Siriuscode/Gilt/Gilt/Helpers/ManagerPaint.swift"
+                  timestampString = "524420973.372222"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "8">
                </Location>
             </Locations>
          </BreakpointContent>

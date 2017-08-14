@@ -9,9 +9,9 @@
 import Foundation
 
 enum Errors: Error {
-    case InvalidColorPreferences
-    case InvalidFinish
-    case NumberOfColorsNotProvided
-    case InvalidNumberOfColors
-    case InvalidFileFormat
+    case invalidColorPreferences
+    case invalidFinish
+    case numberOfColorsNotProvided
+    case invalidNumberOfColors
+    case invalidFileFormat
 }

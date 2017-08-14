@@ -234,6 +234,7 @@
 					A08517C11F409F7D008694C8 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 6CG326ELR9;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -469,6 +470,7 @@
 				A08517A11F409EA3008694C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A08517C71F409F7D008694C8 /* Build configuration list for PBXNativeTarget "GiltTestCase" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +479,7 @@
 				A08517C91F409F7D008694C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

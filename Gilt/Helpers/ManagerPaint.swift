@@ -38,7 +38,7 @@ struct ManagerPaint {
     }
     
     // MARK: - Private Functions
-    private func candidateFor(_ customer: Customer, solution: [Int: Finish]) -> Paint? {
+    fileprivate func candidateFor(_ customer: Customer, solution: [Int: Finish]) -> Paint? {
         
         // if the customer has only one paint preference, that must be in the output
         if customer.paintPreferences.count == 1 {
@@ -61,7 +61,7 @@ struct ManagerPaint {
         }
     }
     
-    private func complete(_ solution: [Int: Finish]) -> String {
+    fileprivate func complete(_ solution: [Int: Finish]) -> String {
         // Get result final 
         let output = (1...paintShop.numberOfColors).map { solution[$0] ?? .Gloss }
         //Add separator with space

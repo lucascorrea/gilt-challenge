@@ -13,19 +13,19 @@ class GiltTestCase: XCTestCase {
     //
     // MARK: - Invalid Tests
     func testBadFinish() {
-        try? checkTestInvalidNamed("invalid1", expectedResult: Errors.InvalidFinish)
+        try? checkTestInvalidNamed("invalid1", expectedResult: Errors.invalidFinish)
     }
     
     func testInvalidColor() {
-        try? checkTestInvalidNamed("invalid2", expectedResult: Errors.InvalidColorPreferences)
+        try? checkTestInvalidNamed("invalid2", expectedResult: Errors.invalidColorPreferences)
     }
     
     func testMissingNumberOfColors() {
-        try? checkTestInvalidNamed("invalid3", expectedResult: Errors.NumberOfColorsNotProvided)
+        try? checkTestInvalidNamed("invalid3", expectedResult: Errors.numberOfColorsNotProvided)
     }
     
     func testInvalidNumberOfColors() {
-        try? checkTestInvalidNamed("invalid4", expectedResult: Errors.InvalidFileFormat)
+        try? checkTestInvalidNamed("invalid4", expectedResult: Errors.invalidFileFormat)
     }
     
     //
@@ -61,7 +61,7 @@ class GiltTestCase: XCTestCase {
     
     //
     // MARK: - Private Functions
-    private func checkTestNamed(_ name: String, expectedResult: String) {
+    fileprivate func checkTestNamed(_ name: String, expectedResult: String) {
         let inputFileReader = InputFileReader()
         
         guard let string = try? inputFileReader.readFileAt(name) else {
@@ -80,7 +80,7 @@ class GiltTestCase: XCTestCase {
         XCTAssertEqual(result, expectedResult)
     }
     
-    private func checkTestInvalidNamed(_ name: String, expectedResult: Errors) throws {
+    fileprivate func checkTestInvalidNamed(_ name: String, expectedResult: Errors) throws {
         let inputFileReader = InputFileReader()
         
         guard let string = try? inputFileReader.readFileAt(name) else {

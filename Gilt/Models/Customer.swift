@@ -18,29 +18,29 @@ struct Customer {
         let colors = string.components(separatedBy: CharacterSet.whitespaces)
         guard colors.count > 1, colors.count%2 == 0 else {
             //the line was either empty or contained
-            throw Errors.InvalidColorPreferences
+            throw Errors.invalidColorPreferences
         }
         
         for index in stride(from:0, to: colors.count, by: 2) {
             guard let color = Int(colors[index]) else {
-                throw Errors.InvalidColorPreferences
+                throw Errors.invalidColorPreferences
             }
             
             guard let finish = Finish(rawValue: colors[index+1]) else {
-                throw Errors.InvalidFinish
+                throw Errors.invalidFinish
             }
             
-            add(color: color, withFinish: finish)
+            add(color, withFinish: finish)
         }
     }
     
     //MARK: - Private Functions
-    private mutating func add(paint: Paint) {
+    fileprivate mutating func add(_ paint: Paint) {
         paintPreferences.insert(paint, at: 0)
     }
     
-    private mutating func add(color: Int, withFinish finish: Finish? = .Gloss){
-        add(paint: Paint(color: color, finish: finish!))
+    fileprivate mutating func add(_ color: Int, withFinish finish: Finish? = .Gloss){
+        add(Paint(color: color, finish: finish!))
     }
     
     
